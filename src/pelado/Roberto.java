@@ -1,9 +1,10 @@
-import java.sql.SQLOutput;
+package pelado;
+
 import java.util.Arrays;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Main {
+public class Roberto {
     public static void main(String[] args) {
         String text = "Hola Mundo!";
 
@@ -112,9 +113,7 @@ public class Main {
         double l = a + b;
             System.out.println(l);
         int v = 15;
-        double k = 15.015;
-        int
-
+        double h = 15.015;
     }
     }
 
