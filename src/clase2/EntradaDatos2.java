@@ -8,11 +8,13 @@ import java.util.Arrays;
 public class EntradaDatos2 {
     public static void main (String[] args){
 
-        String nombre = JOptionPane.showInputDialog("introduce tu nombre");
+        String nombre =  JOptionPane.showInputDialog("introduce tu nombre");
 
-        String edad = JOptionPane.showInputDialog("introduce tu edad");
+        int edad = Integer.parseInt(JOptionPane.showInputDialog("introduce tu edad"));
 
-        System.out.println("tu nombre es: " + nombre + " y tienes " + edad +  " años.");
+        double salario =Double.parseDouble( JOptionPane.showInputDialog("introduce tu salario"));
+
+        System.out.println("tu nombre es: " + nombre + " y tienes " + edad +  " años. Y tienes un salario de $ " + salario);
     }
 
 }
